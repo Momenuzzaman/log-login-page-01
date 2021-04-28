@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(204, 238, 238);
+}
+.row{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 12px 12px 20px gray;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: whitesmoke;
+    border: 1px solid;
+    color:black;
+}
